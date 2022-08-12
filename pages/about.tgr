@@ -2,11 +2,11 @@ import css : style/main.css
 
 nav-block : class[navbar]
 
-	block : class[item active] onclick[open_page('home')]
+	block : class[item] onclick[open_page('home')]
 	:: Home
 	/block
 
-	block : class[item] onclick[open_page('about')]
+	block : class[item active] onclick[open_page('about')]
 	:: About
 	/block
 
