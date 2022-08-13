@@ -2,7 +2,7 @@ import css : style/main.css
 
 nav-block : class[navbar]
 
-	block : class[item active]
+	block : class[item] onclick[open_page('home')]
 	:: Home Page
 	/block
 
@@ -10,7 +10,7 @@ nav-block : class[navbar]
 	:: Page 2
 	/block
 
-	block : class[item] onclick[open_page('page_3')]
+	block : class[item active]
 	:: Page 3
 	/block
 
