@@ -40,7 +40,7 @@ import
                     import apple-web-app-icon : [link to image]
 
 h / hh / hhh
-    format =        [h/hh/hhh] : [text]
+    format =        [h/hh/hhh] : [text] : [additional attributes]
     use =           Add different headings (h = heading 1, biggest ... hh = heading 2, seconds biggest ...)
 
 block
